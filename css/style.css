@@ -1,0 +1,136 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 500;
+}
+
+header, footer, .main-center, .block-found {
+    background-color: #669885;
+}
+
+header {
+    box-shadow: 0 3px 6px #00000029;
+}
+
+header .btn {
+    width: 7rem;
+    border-radius: 2rem;
+}
+
+header .btn:hover {
+    background-color: #FFE18B;
+}
+
+.text-welcome {
+    font-size: 3.5rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.word-pawfessional, .text-hear {
+    color: #669885;
+}
+
+.block-lost {
+    background-color: #FFE18B;
+    width: 38rem;
+    position: relative;
+}
+
+.block-lost img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.block-found {
+    width: 34rem;
+}
+
+.block-lost, .block-found {
+    margin-left: -13rem;
+    cursor: pointer;
+    height: 5.8rem;
+    padding-left: 13rem;
+    padding-top: 1.7rem;
+    border-radius: 0 3rem 3rem 0;
+}
+
+.block-lost:hover h2, .block-found:hover h2 {
+    display: none;
+}
+
+.block-lost:hover:before {
+    font-size: 2rem;
+    content: "Click to find";
+}
+
+.block-found:hover:before {
+    font-size: 2rem;
+    content: "What to do?";
+    color: white;
+}
+
+.main-center h2 {
+    padding: 5.25rem 0;
+    line-height: 1.7;
+}
+
+.join {
+    color: #669885;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.join:hover {
+    color: #669885;
+}
+
+.dot {
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #669885;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+table {
+    font-size: 1.13rem;
+    line-height: 2;
+}
+
+.main-red i{
+    -webkit-text-stroke: 0.5rem #FF6F61;
+    margin: 1rem 0;
+}
+
+.main-red h1 {
+    font-size: 3.5rem;
+}
+
+.main-red p, .text-hear {
+    font-weight: 600;
+}
+
+.word-love {
+    position: absolute;
+    top: 4rem;
+    left: 2.5rem;
+}
+
+.main-red {
+    position: relative;
+    background-color: #FF6F61;
+}
+
+footer p {
+    font-size: 0.75rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer table a, footer table a:hover{
+    text-decoration: none;
+    color: white;
+}
